@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F927021E329EF6002A853D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927011E329EF6002A853D /* AppDelegate.swift */; };
+		09F927041E329EF6002A853D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927031E329EF6002A853D /* ViewController.swift */; };
+		09F927071E329EF6002A853D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F927051E329EF6002A853D /* Main.storyboard */; };
+		09F9270A1E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09F927081E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld */; };
+		09F9270C1E329EF6002A853D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F9270B1E329EF6002A853D /* Assets.xcassets */; };
+		09F9270F1E329EF6002A853D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F9270D1E329EF6002A853D /* LaunchScreen.storyboard */; };
+		09F9271A1E329EF6002A853D /* CodingTestForMeltWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927191E329EF6002A853D /* CodingTestForMeltWaterTests.swift */; };
+		09F927251E329EF6002A853D /* CodingTestForMeltWaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927241E329EF6002A853D /* CodingTestForMeltWaterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F927161E329EF6002A853D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F926F61E329EF5002A853D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F926FD1E329EF5002A853D;
+			remoteInfo = CodingTestForMeltWater;
+		};
+		09F927211E329EF6002A853D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F926F61E329EF5002A853D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F926FD1E329EF5002A853D;
+			remoteInfo = CodingTestForMeltWater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F926FE1E329EF6002A853D /* CodingTestForMeltWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingTestForMeltWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F927011E329EF6002A853D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09F927031E329EF6002A853D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09F927061E329EF6002A853D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09F927091E329EF6002A853D /* CodingTestForMeltWater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodingTestForMeltWater.xcdatamodel; sourceTree = "<group>"; };
+		09F9270B1E329EF6002A853D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09F9270E1E329EF6002A853D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09F927101E329EF6002A853D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F927151E329EF6002A853D /* CodingTestForMeltWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingTestForMeltWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F927191E329EF6002A853D /* CodingTestForMeltWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingTestForMeltWaterTests.swift; sourceTree = "<group>"; };
+		09F9271B1E329EF6002A853D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F927201E329EF6002A853D /* CodingTestForMeltWaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingTestForMeltWaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F927241E329EF6002A853D /* CodingTestForMeltWaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingTestForMeltWaterUITests.swift; sourceTree = "<group>"; };
+		09F927261E329EF6002A853D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F926FB1E329EF5002A853D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F927121E329EF6002A853D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F9271D1E329EF6002A853D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F926F51E329EF5002A853D = {
+			isa = PBXGroup;
+			children = (
+				09F927001E329EF6002A853D /* CodingTestForMeltWater */,
+				09F927181E329EF6002A853D /* CodingTestForMeltWaterTests */,
+				09F927231E329EF6002A853D /* CodingTestForMeltWaterUITests */,
+				09F926FF1E329EF6002A853D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09F926FF1E329EF6002A853D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F926FE1E329EF6002A853D /* CodingTestForMeltWater.app */,
+				09F927151E329EF6002A853D /* CodingTestForMeltWaterTests.xctest */,
+				09F927201E329EF6002A853D /* CodingTestForMeltWaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09F927001E329EF6002A853D /* CodingTestForMeltWater */ = {
+			isa = PBXGroup;
+			children = (
+				09F927011E329EF6002A853D /* AppDelegate.swift */,
+				09F927031E329EF6002A853D /* ViewController.swift */,
+				09F927051E329EF6002A853D /* Main.storyboard */,
+				09F9270B1E329EF6002A853D /* Assets.xcassets */,
+				09F9270D1E329EF6002A853D /* LaunchScreen.storyboard */,
+				09F927101E329EF6002A853D /* Info.plist */,
+				09F927081E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld */,
+			);
+			path = CodingTestForMeltWater;
+			sourceTree = "<group>";
+		};
+		09F927181E329EF6002A853D /* CodingTestForMeltWaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				09F927191E329EF6002A853D /* CodingTestForMeltWaterTests.swift */,
+				09F9271B1E329EF6002A853D /* Info.plist */,
+			);
+			path = CodingTestForMeltWaterTests;
+			sourceTree = "<group>";
+		};
+		09F927231E329EF6002A853D /* CodingTestForMeltWaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09F927241E329EF6002A853D /* CodingTestForMeltWaterUITests.swift */,
+				09F927261E329EF6002A853D /* Info.plist */,
+			);
+			path = CodingTestForMeltWaterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F926FD1E329EF5002A853D /* CodingTestForMeltWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F927291E329EF6002A853D /* Build configuration list for PBXNativeTarget "CodingTestForMeltWater" */;
+			buildPhases = (
+				09F926FA1E329EF5002A853D /* Sources */,
+				09F926FB1E329EF5002A853D /* Frameworks */,
+				09F926FC1E329EF5002A853D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodingTestForMeltWater;
+			productName = CodingTestForMeltWater;
+			productReference = 09F926FE1E329EF6002A853D /* CodingTestForMeltWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09F927141E329EF6002A853D /* CodingTestForMeltWaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F9272C1E329EF6002A853D /* Build configuration list for PBXNativeTarget "CodingTestForMeltWaterTests" */;
+			buildPhases = (
+				09F927111E329EF6002A853D /* Sources */,
+				09F927121E329EF6002A853D /* Frameworks */,
+				09F927131E329EF6002A853D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F927171E329EF6002A853D /* PBXTargetDependency */,
+			);
+			name = CodingTestForMeltWaterTests;
+			productName = CodingTestForMeltWaterTests;
+			productReference = 09F927151E329EF6002A853D /* CodingTestForMeltWaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09F9271F1E329EF6002A853D /* CodingTestForMeltWaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F9272F1E329EF6002A853D /* Build configuration list for PBXNativeTarget "CodingTestForMeltWaterUITests" */;
+			buildPhases = (
+				09F9271C1E329EF6002A853D /* Sources */,
+				09F9271D1E329EF6002A853D /* Frameworks */,
+				09F9271E1E329EF6002A853D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F927221E329EF6002A853D /* PBXTargetDependency */,
+			);
+			name = CodingTestForMeltWaterUITests;
+			productName = CodingTestForMeltWaterUITests;
+			productReference = 09F927201E329EF6002A853D /* CodingTestForMeltWaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F926F61E329EF5002A853D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jeswanth Bonthu";
+				TargetAttributes = {
+					09F926FD1E329EF5002A853D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					09F927141E329EF6002A853D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09F926FD1E329EF5002A853D;
+					};
+					09F9271F1E329EF6002A853D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09F926FD1E329EF5002A853D;
+					};
+				};
+			};
+			buildConfigurationList = 09F926F91E329EF5002A853D /* Build configuration list for PBXProject "CodingTestForMeltWater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09F926F51E329EF5002A853D;
+			productRefGroup = 09F926FF1E329EF6002A853D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F926FD1E329EF5002A853D /* CodingTestForMeltWater */,
+				09F927141E329EF6002A853D /* CodingTestForMeltWaterTests */,
+				09F9271F1E329EF6002A853D /* CodingTestForMeltWaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F926FC1E329EF5002A853D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9270F1E329EF6002A853D /* LaunchScreen.storyboard in Resources */,
+				09F9270C1E329EF6002A853D /* Assets.xcassets in Resources */,
+				09F927071E329EF6002A853D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F927131E329EF6002A853D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F9271E1E329EF6002A853D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F926FA1E329EF5002A853D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9270A1E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld in Sources */,
+				09F927041E329EF6002A853D /* ViewController.swift in Sources */,
+				09F927021E329EF6002A853D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F927111E329EF6002A853D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9271A1E329EF6002A853D /* CodingTestForMeltWaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F9271C1E329EF6002A853D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F927251E329EF6002A853D /* CodingTestForMeltWaterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F927171E329EF6002A853D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F926FD1E329EF5002A853D /* CodingTestForMeltWater */;
+			targetProxy = 09F927161E329EF6002A853D /* PBXContainerItemProxy */;
+		};
+		09F927221E329EF6002A853D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F926FD1E329EF5002A853D /* CodingTestForMeltWater */;
+			targetProxy = 09F927211E329EF6002A853D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09F927051E329EF6002A853D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F927061E329EF6002A853D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09F9270D1E329EF6002A853D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F9270E1E329EF6002A853D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09F927271E329EF6002A853D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09F927281E329EF6002A853D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09F9272A1E329EF6002A853D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodingTestForMeltWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jB.CodingTestForMeltWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		09F9272B1E329EF6002A853D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodingTestForMeltWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jB.CodingTestForMeltWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		09F9272D1E329EF6002A853D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CodingTestForMeltWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jB.CodingTestForMeltWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingTestForMeltWater.app/CodingTestForMeltWater";
+			};
+			name = Debug;
+		};
+		09F9272E1E329EF6002A853D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CodingTestForMeltWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jB.CodingTestForMeltWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingTestForMeltWater.app/CodingTestForMeltWater";
+			};
+			name = Release;
+		};
+		09F927301E329EF6002A853D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CodingTestForMeltWaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jB.CodingTestForMeltWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CodingTestForMeltWater;
+			};
+			name = Debug;
+		};
+		09F927311E329EF6002A853D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CodingTestForMeltWaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jB.CodingTestForMeltWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CodingTestForMeltWater;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F926F91E329EF5002A853D /* Build configuration list for PBXProject "CodingTestForMeltWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F927271E329EF6002A853D /* Debug */,
+				09F927281E329EF6002A853D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F927291E329EF6002A853D /* Build configuration list for PBXNativeTarget "CodingTestForMeltWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F9272A1E329EF6002A853D /* Debug */,
+				09F9272B1E329EF6002A853D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09F9272C1E329EF6002A853D /* Build configuration list for PBXNativeTarget "CodingTestForMeltWaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F9272D1E329EF6002A853D /* Debug */,
+				09F9272E1E329EF6002A853D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09F9272F1E329EF6002A853D /* Build configuration list for PBXNativeTarget "CodingTestForMeltWaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F927301E329EF6002A853D /* Debug */,
+				09F927311E329EF6002A853D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09F927081E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09F927091E329EF6002A853D /* CodingTestForMeltWater.xcdatamodel */,
+			);
+			currentVersion = 09F927091E329EF6002A853D /* CodingTestForMeltWater.xcdatamodel */;
+			path = CodingTestForMeltWater.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09F926F61E329EF5002A853D /* Project object */;
+}
