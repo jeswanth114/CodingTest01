@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09695F581E3747500057FFA0 /* user.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 09695F571E3747500057FFA0 /* user.JPG */; };
+		09925B661E37C69A00743373 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09925B651E37C69A00743373 /* CoreDataManager.swift */; };
+		09925B691E37CDAB00743373 /* CodingTestForMeltWater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09925B671E37CDAB00743373 /* CodingTestForMeltWater.xcdatamodeld */; };
 		09F927021E329EF6002A853D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927011E329EF6002A853D /* AppDelegate.swift */; };
-		09F927041E329EF6002A853D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927031E329EF6002A853D /* ViewController.swift */; };
+		09F927041E329EF6002A853D /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927031E329EF6002A853D /* PostsTableViewController.swift */; };
 		09F927071E329EF6002A853D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F927051E329EF6002A853D /* Main.storyboard */; };
-		09F9270A1E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09F927081E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld */; };
 		09F9270C1E329EF6002A853D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F9270B1E329EF6002A853D /* Assets.xcassets */; };
 		09F9270F1E329EF6002A853D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F9270D1E329EF6002A853D /* LaunchScreen.storyboard */; };
 		09F9271A1E329EF6002A853D /* CodingTestForMeltWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927191E329EF6002A853D /* CodingTestForMeltWaterTests.swift */; };
 		09F927251E329EF6002A853D /* CodingTestForMeltWaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927241E329EF6002A853D /* CodingTestForMeltWaterUITests.swift */; };
+		09F927331E329F11002A853D /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 09F927321E329F11002A853D /* ReadMe.rtf */; };
+		09F9273A1E32B4A2002A853D /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927391E32B4A2002A853D /* AlamofireObjectMapper.swift */; };
+		09F9273F1E32FC31002A853D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9273E1E32FC31002A853D /* APIClient.swift */; };
+		09F927411E32FC8F002A853D /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927401E32FC8F002A853D /* NetworkClient.swift */; };
+		09F927451E33412E002A853D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927441E33412E002A853D /* Post.swift */; };
+		09F927471E334ED0002A853D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927461E334ED0002A853D /* User.swift */; };
+		09F9274A1E360416002A853D /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927491E360416002A853D /* PostsTableViewCell.swift */; };
+		09F9274C1E367EAF002A853D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9274B1E367EAF002A853D /* Constants.swift */; };
+		09F9274E1E369AAE002A853D /* CachedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9274D1E369AAE002A853D /* CachedDataManager.swift */; };
+		09F927501E369FFA002A853D /* PostObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9274F1E369FFA002A853D /* PostObject.swift */; };
+		09F927521E36A026002A853D /* PostObject+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F927511E36A026002A853D /* PostObject+Properties.swift */; };
+		6A12E391F225ACC9D49C3C25 /* Pods_CodingTestForMeltWater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C99E5AC739935958C216A01 /* Pods_CodingTestForMeltWater.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09695F571E3747500057FFA0 /* user.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.JPG; sourceTree = "<group>"; };
+		09925B651E37C69A00743373 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		09925B681E37CDAB00743373 /* CodingTestForMeltWater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodingTestForMeltWater.xcdatamodel; sourceTree = "<group>"; };
 		09F926FE1E329EF6002A853D /* CodingTestForMeltWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingTestForMeltWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F927011E329EF6002A853D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09F927031E329EF6002A853D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09F927031E329EF6002A853D /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
 		09F927061E329EF6002A853D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09F927091E329EF6002A853D /* CodingTestForMeltWater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodingTestForMeltWater.xcdatamodel; sourceTree = "<group>"; };
 		09F9270B1E329EF6002A853D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09F9270E1E329EF6002A853D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09F927101E329EF6002A853D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +65,20 @@
 		09F927201E329EF6002A853D /* CodingTestForMeltWaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingTestForMeltWaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F927241E329EF6002A853D /* CodingTestForMeltWaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingTestForMeltWaterUITests.swift; sourceTree = "<group>"; };
 		09F927261E329EF6002A853D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F927321E329F11002A853D /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		09F927391E32B4A2002A853D /* AlamofireObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireObjectMapper.swift; sourceTree = "<group>"; };
+		09F9273E1E32FC31002A853D /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		09F927401E32FC8F002A853D /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		09F927441E33412E002A853D /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		09F927461E334ED0002A853D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		09F927491E360416002A853D /* PostsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		09F9274B1E367EAF002A853D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		09F9274D1E369AAE002A853D /* CachedDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedDataManager.swift; sourceTree = "<group>"; };
+		09F9274F1E369FFA002A853D /* PostObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostObject.swift; sourceTree = "<group>"; };
+		09F927511E36A026002A853D /* PostObject+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PostObject+Properties.swift"; sourceTree = "<group>"; };
+		4B4814E905E0E278F535641D /* Pods-CodingTestForMeltWater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingTestForMeltWater.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodingTestForMeltWater/Pods-CodingTestForMeltWater.release.xcconfig"; sourceTree = "<group>"; };
+		75202CE8AD08B1A8B305E75C /* Pods-CodingTestForMeltWater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingTestForMeltWater.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodingTestForMeltWater/Pods-CodingTestForMeltWater.debug.xcconfig"; sourceTree = "<group>"; };
+		7C99E5AC739935958C216A01 /* Pods_CodingTestForMeltWater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodingTestForMeltWater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A12E391F225ACC9D49C3C25 /* Pods_CodingTestForMeltWater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +110,15 @@
 		09F926F51E329EF5002A853D = {
 			isa = PBXGroup;
 			children = (
+				09925B671E37CDAB00743373 /* CodingTestForMeltWater.xcdatamodeld */,
+				09695F571E3747500057FFA0 /* user.JPG */,
+				09F9274B1E367EAF002A853D /* Constants.swift */,
 				09F927001E329EF6002A853D /* CodingTestForMeltWater */,
 				09F927181E329EF6002A853D /* CodingTestForMeltWaterTests */,
 				09F927231E329EF6002A853D /* CodingTestForMeltWaterUITests */,
 				09F926FF1E329EF6002A853D /* Products */,
+				DAF21FEF7895CD316345092E /* Pods */,
+				181D6766E02552B36EFC9CC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +135,15 @@
 		09F927001E329EF6002A853D /* CodingTestForMeltWater */ = {
 			isa = PBXGroup;
 			children = (
+				09F927481E3602D3002A853D /* View Controllers */,
+				09F9273B1E32B4F1002A853D /* Network Communication */,
+				09F927381E32B494002A853D /* Models */,
 				09F927011E329EF6002A853D /* AppDelegate.swift */,
-				09F927031E329EF6002A853D /* ViewController.swift */,
 				09F927051E329EF6002A853D /* Main.storyboard */,
 				09F9270B1E329EF6002A853D /* Assets.xcassets */,
 				09F9270D1E329EF6002A853D /* LaunchScreen.storyboard */,
 				09F927101E329EF6002A853D /* Info.plist */,
-				09F927081E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld */,
+				09F927321E329F11002A853D /* ReadMe.rtf */,
 			);
 			path = CodingTestForMeltWater;
 			sourceTree = "<group>";
@@ -128,6 +166,55 @@
 			path = CodingTestForMeltWaterUITests;
 			sourceTree = "<group>";
 		};
+		09F927381E32B494002A853D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09F927441E33412E002A853D /* Post.swift */,
+				09F927461E334ED0002A853D /* User.swift */,
+				09F9274D1E369AAE002A853D /* CachedDataManager.swift */,
+				09F9274F1E369FFA002A853D /* PostObject.swift */,
+				09F927511E36A026002A853D /* PostObject+Properties.swift */,
+				09925B651E37C69A00743373 /* CoreDataManager.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		09F9273B1E32B4F1002A853D /* Network Communication */ = {
+			isa = PBXGroup;
+			children = (
+				09F927391E32B4A2002A853D /* AlamofireObjectMapper.swift */,
+				09F9273E1E32FC31002A853D /* APIClient.swift */,
+				09F927401E32FC8F002A853D /* NetworkClient.swift */,
+			);
+			name = "Network Communication";
+			sourceTree = "<group>";
+		};
+		09F927481E3602D3002A853D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09F927031E329EF6002A853D /* PostsTableViewController.swift */,
+				09F927491E360416002A853D /* PostsTableViewCell.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		181D6766E02552B36EFC9CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C99E5AC739935958C216A01 /* Pods_CodingTestForMeltWater.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAF21FEF7895CD316345092E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75202CE8AD08B1A8B305E75C /* Pods-CodingTestForMeltWater.debug.xcconfig */,
+				4B4814E905E0E278F535641D /* Pods-CodingTestForMeltWater.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09F927291E329EF6002A853D /* Build configuration list for PBXNativeTarget "CodingTestForMeltWater" */;
 			buildPhases = (
+				257B98F5E7228B96247B3216 /* [CP] Check Pods Manifest.lock */,
 				09F926FA1E329EF5002A853D /* Sources */,
 				09F926FB1E329EF5002A853D /* Frameworks */,
 				09F926FC1E329EF5002A853D /* Resources */,
+				FCA8DB08772488E133FDABBB /* [CP] Embed Pods Frameworks */,
+				49BFB0BA367BE9476A918C3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +325,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09695F581E3747500057FFA0 /* user.JPG in Resources */,
 				09F9270F1E329EF6002A853D /* LaunchScreen.storyboard in Resources */,
 				09F9270C1E329EF6002A853D /* Assets.xcassets in Resources */,
+				09F927331E329F11002A853D /* ReadMe.rtf in Resources */,
 				09F927071E329EF6002A853D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +349,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		257B98F5E7228B96247B3216 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49BFB0BA367BE9476A918C3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodingTestForMeltWater/Pods-CodingTestForMeltWater-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA8DB08772488E133FDABBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodingTestForMeltWater/Pods-CodingTestForMeltWater-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09F926FA1E329EF5002A853D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09F9270A1E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld in Sources */,
-				09F927041E329EF6002A853D /* ViewController.swift in Sources */,
+				09F927521E36A026002A853D /* PostObject+Properties.swift in Sources */,
+				09925B691E37CDAB00743373 /* CodingTestForMeltWater.xcdatamodeld in Sources */,
+				09F927041E329EF6002A853D /* PostsTableViewController.swift in Sources */,
+				09F9273A1E32B4A2002A853D /* AlamofireObjectMapper.swift in Sources */,
 				09F927021E329EF6002A853D /* AppDelegate.swift in Sources */,
+				09F927471E334ED0002A853D /* User.swift in Sources */,
+				09F9274E1E369AAE002A853D /* CachedDataManager.swift in Sources */,
+				09F9274C1E367EAF002A853D /* Constants.swift in Sources */,
+				09F9273F1E32FC31002A853D /* APIClient.swift in Sources */,
+				09F927501E369FFA002A853D /* PostObject.swift in Sources */,
+				09F9274A1E360416002A853D /* PostsTableViewCell.swift in Sources */,
+				09F927451E33412E002A853D /* Post.swift in Sources */,
+				09925B661E37C69A00743373 /* CoreDataManager.swift in Sources */,
+				09F927411E32FC8F002A853D /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,9 +563,12 @@
 		};
 		09F9272A1E329EF6002A853D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75202CE8AD08B1A8B305E75C /* Pods-CodingTestForMeltWater.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodingTestForMeltWater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jB.CodingTestForMeltWater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +578,12 @@
 		};
 		09F9272B1E329EF6002A853D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4814E905E0E278F535641D /* Pods-CodingTestForMeltWater.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodingTestForMeltWater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jB.CodingTestForMeltWater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +664,7 @@
 				09F9272B1E329EF6002A853D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09F9272C1E329EF6002A853D /* Build configuration list for PBXNativeTarget "CodingTestForMeltWaterTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +673,7 @@
 				09F9272E1E329EF6002A853D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09F9272F1E329EF6002A853D /* Build configuration list for PBXNativeTarget "CodingTestForMeltWaterUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,16 +682,17 @@
 				09F927311E329EF6002A853D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		09F927081E329EF6002A853D /* CodingTestForMeltWater.xcdatamodeld */ = {
+		09925B671E37CDAB00743373 /* CodingTestForMeltWater.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				09F927091E329EF6002A853D /* CodingTestForMeltWater.xcdatamodel */,
+				09925B681E37CDAB00743373 /* CodingTestForMeltWater.xcdatamodel */,
 			);
-			currentVersion = 09F927091E329EF6002A853D /* CodingTestForMeltWater.xcdatamodel */;
+			currentVersion = 09925B681E37CDAB00743373 /* CodingTestForMeltWater.xcdatamodel */;
 			path = CodingTestForMeltWater.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

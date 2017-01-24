@@ -1,0 +1,6 @@
+framework module Pods_CodingTestForMeltWater {
+  umbrella header "Pods-CodingTestForMeltWater-umbrella.h"
+
+  export *
+  module * { export * }
+}

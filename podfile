@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'CodingTestForMeltWater' do
+  pod 'Alamofire', '~> 4.0'
+  pod 'ObjectMapper', '~> 2.2'
+end
